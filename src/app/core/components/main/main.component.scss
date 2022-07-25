@@ -1,0 +1,10 @@
+.parallax {
+    background: url("/assets/img/floors.jpeg")
+    repeat fixed 100%;
+}
+
+.parallax-inner {
+    position: relative;
+    width: 100%;
+    height: 95vh;
+}

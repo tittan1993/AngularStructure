@@ -1,5 +1,15 @@
 <mat-toolbar>
-    <span>Proyecto empleados</span>
-    <span class="example-spacer"></span>
+    <span class="title">Proyecto empleados</span>
+    <span class="spacer"></span>
+
       <mat-icon>share</mat-icon>
+      <span class="spacer__Icon"></span>
+      
+      <mat-icon class="iconMenu" mat-icon-button [matMenuTriggerFor]="menu">more_vert</mat-icon>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item (click)="redirectUser()">
+          <mat-icon>highlight_off</mat-icon>
+          <span>Cerrar sesión</span>
+        </button>
+      </mat-menu>
   </mat-toolbar>
