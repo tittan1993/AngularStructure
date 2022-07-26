@@ -1,25 +1,8 @@
 @import "/src/app/shared/sass/variables";
+@import "/src/styles.scss";
 
-.title {
-  color: $white;
-}
-
-.spacer {
-    flex: 12 1 auto;
-
-    &__Icon {
-      flex: 0.1 auto;
-    }
-  }
 
   .iconMenu {
     cursor: pointer;
   }
 
-  ::ng-deep .mat-toolbar-row, .mat-toolbar-single-row {
-    background: $greyRBG;
-  }
-
-  ::ng-deep .mat-icon {
-    color: $white;
-}
